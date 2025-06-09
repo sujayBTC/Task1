@@ -159,3 +159,4 @@ def remove_user(id):
     cursor.execute(f"delete from user where id={id}")
     db.commit()
     return {"message":"user deleted successfully"}
+
