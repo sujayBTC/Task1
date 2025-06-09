@@ -17,11 +17,11 @@ db=mysql.connector.connect(
 
 cursor=db.cursor()
 
-userData=[
-    {"id":"c89c0e84-f043-4c10-b0a2-1308525f562c","name":"sujay","email":"suj.com","department":"front"},
-    {"id":"6ba896e4-969d-46f6-9abf-6aa64e7fdede","name":"sujay","email":"sujay.com","department":"front"},
-    {"id":"bd43babe-8e59-45aa-ac9a-8c58d3996ec9","name":"sujay","email":"sujayselvan.com","department":"front"}
-]
+# userData=[
+#     {"id":"c89c0e84-f043-4c10-b0a2-1308525f562c","name":"sujay","email":"suj.com","department":"front"},
+#     {"id":"6ba896e4-969d-46f6-9abf-6aa64e7fdede","name":"sujay","email":"sujay.com","department":"front"},
+#     {"id":"bd43babe-8e59-45aa-ac9a-8c58d3996ec9","name":"sujay","email":"sujayselvan.com","department":"front"}
+# ]
 
 department = [
     {
